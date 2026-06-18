@@ -2,8 +2,21 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0;url=https://bellevitta.store/cancerportugues/">
-  <script>window.location.replace("https://bellevitta.store/cancerportugues/");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecionando...</title>
+  <script>
+    (function () {
+      var destino = "https://bellevitta.store/cancerportugues/";
+      var search = window.location.search;
+      if (search) {
+        destino += (destino.indexOf('?') !== -1 ? '&' : '?') + search.slice(1);
+      }
+      window.location.replace(destino);
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=https://bellevitta.store/cancerportugues/">
+  </noscript>
 </head>
 <body></body>
 </html>
